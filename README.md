@@ -9,7 +9,7 @@ I came up with this solution. I'm not sure if this is a proper but it works for 
 1. Download the repo
 2. run `nodemon server.js` or `node server.js`
 3. The terminal will give you errors for all the modules you don't have. Install the modules to fix the errors until the server file runs.
-4. In your proser go to `http://localhost:4001/users/current` and you should see that there is no user associated with the session.
+4. In your browser or Postman go to `http://localhost:4001/users/current` and you should see that there is no user associated with the session.
 5. In a new terminal cs into the directory and run `node seed/addUserToSession.js`
 6. Now when you go to `http://localhost:4001/users/current` you will see a user. This is the user set on req.user.
 7. To delete the user from the session run `node seed/removeUserFromSession.js`
