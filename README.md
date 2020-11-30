@@ -16,7 +16,7 @@ I came up with this solution. I'm not sure if this is a proper but it works for 
 
 ## Setting the Correct Session ID
 
-This `addUserToSession.js` and `removeUserFromSession.js` work by finding the first session in the database. If you have more than one session in the database, you will need to search the session by id to get the correct session. You will have more than one session in the database if you navigated to `http://localhost:4001` from more than one client.:
+`addUserToSession.js` and `removeUserFromSession.js` work by finding the first session in the database. If you have more than one session in the database, you will need to search the session by id to get the correct session. You will have more than one session in the database if you navigated to `http://localhost:4001` from more than one client.:
 
 For example, navigating to anywhere on `http://localhost:4001` from
 
